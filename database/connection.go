@@ -11,7 +11,7 @@ func init()  {
 		User:     env.Env.DbUsername,
 		Password: env.Env.DbPassword,
 		Database: env.Env.DbName,
-		//PoolSize: env.Env.DbPoolSize,
+		PoolSize: 10,
 	})
 }
 
